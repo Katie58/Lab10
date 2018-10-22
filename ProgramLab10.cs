@@ -20,6 +20,7 @@ namespace Lab10
                 while (!valid)
                 {
                     Console.Clear();
+                    Console.WriteLine("Welcome to the Circle Tester");
                     Console.Write("Please enter a radius:  ");
                     if (double.TryParse(Console.ReadLine(), out double radius))
                     {
